@@ -24,9 +24,16 @@ public class Ejercicio06_CategoriaEdad {
 }
 /***
  * EVIDENCIA DEL RUN:
+<<<<<<< HEAD
  * run-single:
 Ingrese su edad:
 72
 Categoria: Adulto
 BUILD SUCCESSFUL (total time: 5 seconds)
+=======
+Ingrese su edad:
+19
+Categoria: Adulto
+ * Pegue aquí la evidencia de la ejecución del .java
+>>>>>>> bfc92ce2768cb28ee477dcdab8e2f767ba5dcce6
  */
