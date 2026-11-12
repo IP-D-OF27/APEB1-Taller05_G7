@@ -29,5 +29,13 @@ public class Ejercicio03_Mayor3numeros {
 
 /***
  * EVIDENCIA DEL RUN:
+Ingrese el primer numero: 
+2
+Ingrese el segundo numero: 
+1
+Ingrese el tercer numero: 
+3
+El mayor es: 3.0
+ 
  * Pegue aquí la evidencia de la ejecución del .java
  */
