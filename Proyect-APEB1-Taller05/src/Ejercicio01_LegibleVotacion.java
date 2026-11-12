@@ -5,7 +5,6 @@ import java.util.Scanner;
  * @author Jeremy,Leandro
  * @version 1.0
  */
-
 public class Ejercicio01_LegibleVotacion {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
@@ -17,7 +16,6 @@ public class Ejercicio01_LegibleVotacion {
             System.out.println("NO legible para votar");       
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
  * run:

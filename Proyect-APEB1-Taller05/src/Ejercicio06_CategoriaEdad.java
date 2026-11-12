@@ -24,5 +24,9 @@ public class Ejercicio06_CategoriaEdad {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run-single:
+Ingrese su edad:
+72
+Categoria: Adulto
+BUILD SUCCESSFUL (total time: 5 seconds)
  */
