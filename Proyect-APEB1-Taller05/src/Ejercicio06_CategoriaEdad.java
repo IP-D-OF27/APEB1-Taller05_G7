@@ -24,5 +24,8 @@ public class Ejercicio06_CategoriaEdad {
 }
 /***
  * EVIDENCIA DEL RUN:
+Ingrese su edad:
+19
+Categoria: Adulto
  * Pegue aquí la evidencia de la ejecución del .java
  */
