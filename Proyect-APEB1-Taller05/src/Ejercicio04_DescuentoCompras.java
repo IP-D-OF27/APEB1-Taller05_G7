@@ -25,6 +25,5 @@ public class Ejercicio04_DescuentoCompras {
 Ingrese el precio:
 120
 Precio final: $108.0
- 
- * Pegue aquí la evidencia de la ejecución del .java
+ * 
  */

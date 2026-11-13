@@ -35,6 +35,4 @@ Ingrese el segundo numero:
 Ingrese el tercer numero: 
 3
 El mayor es: 3.0
- 
- * Pegue aquí la evidencia de la ejecución del .java
  */

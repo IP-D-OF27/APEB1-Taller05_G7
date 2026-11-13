@@ -19,7 +19,7 @@ public class Ejercicio02_diaSemana {
                 diaSemana = ("Martes");
                 break;
             case 3:
-                diaSemana = ("Miércoles");
+                diaSemana = ("Miercoles");
                 break;
             case 4:
                 diaSemana = ("Jueves");
@@ -28,15 +28,14 @@ public class Ejercicio02_diaSemana {
                 diaSemana = ("Viernes");
                 break;
             case 6:
-                diaSemana = ("Sábado");
+                diaSemana = ("Sabado");
                 break;
             case 7:
                 diaSemana = ("Domingo");
                 break;
             default:
-                System.out.println("Número inválido. Debe ser del 1 al 7.");
+                System.out.println("Numero invalido. Debe ser del 1 al 7.");
         }
-        tcl.close();
         System.out.println("El dia se la semana es: " + diaSemana);
     }
 }
