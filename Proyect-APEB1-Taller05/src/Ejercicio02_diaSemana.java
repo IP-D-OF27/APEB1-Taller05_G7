@@ -42,7 +42,7 @@ public class Ejercicio02_diaSemana {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Ingrese un numero del 1 al 7: 
+Ingrese un numero del 1 al 7: 
 1
 El dia se la semana es: Lunes
 BUILD SUCCESSFUL (total time: 10 seconds)
