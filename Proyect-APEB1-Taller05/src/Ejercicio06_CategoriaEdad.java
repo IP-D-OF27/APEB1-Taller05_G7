@@ -31,5 +31,4 @@ Categoria: Adulto
 Ingrese su edad:
 12
 Categoria: Adolescente
->>>>>>> bfc92ce2768cb28ee477dcdab8e2f767ba5dcce6
  */

@@ -8,41 +8,27 @@ import java.util.Scanner;
 public class Ejercicio02_diaSemana {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
+        String nombreDia;
         System.out.println("Ingrese un numero del 1 al 7: ");
         int numero = tcl.nextInt();
-        String diaSemana = null;
         switch (numero) {
-            case 1:
-                diaSemana = ("Lunes");
-                break;
-            case 2:
-                diaSemana = ("Martes");
-                break;
-            case 3:
-                diaSemana = ("Miercoles");
-                break;
-            case 4:
-                diaSemana = ("Jueves");
-                break;
-            case 5:
-                diaSemana = ("Viernes");
-                break;
-            case 6:
-                diaSemana = ("Sabado");
-                break;
-            case 7:
-                diaSemana = ("Domingo");
-                break;
-            default:
-                System.out.println("Numero invalido. Debe ser del 1 al 7.");
+            case 1 -> nombreDia = ("Lunes");
+            case 2 -> nombreDia = ("Martes");
+            case 3 -> nombreDia = ("Miercoles");
+            case 4 -> nombreDia = ("Jueves");
+            case 5 -> nombreDia = ("Viernes");
+            case 6 -> nombreDia = ("Sabado");
+            case 7 -> nombreDia = ("Domingo");
+            default -> nombreDia = "error";
         }
-        System.out.println("El dia se la semana es: " + diaSemana);
+        System.out.println("El dia de la semana es: " + nombreDia);
     }
 }
 /***
  * EVIDENCIA DEL RUN:
 Ingrese un numero del 1 al 7: 
-1
-El dia se la semana es: Lunes
-BUILD SUCCESSFUL (total time: 10 seconds)
+6
+El dia de la semana es: Sabado
+BUILD SUCCESSFUL (total time: 8 seconds)
+
  */

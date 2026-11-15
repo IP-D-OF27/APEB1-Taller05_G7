@@ -10,12 +10,9 @@ public class Ejercicio05_AnioBisiesto {
         Scanner tcl = new Scanner(System.in);
         System.out.println("Ingrese un anio: ");
         int anio = tcl.nextInt();
-        if (anio % 400 == 0) {
-            System.out.println("El anio" + anio + " es bisiesto.");
-        } else if (anio % 100 == 0) {
-            System.out.println("El anio " + anio + " no es bisiesto.");
-        } else if (anio % 4 == 0) {
+       if (anio % 400 == 0 || (anio % 4 == 0 && anio % 100 > 0)) {
             System.out.println("El anio " + anio + " es bisiesto.");
+            System.out.println("Este anio tiene 366 dias");
         } else {
             System.out.println("El anio " + anio + " no es bisiesto.");
         }
@@ -24,7 +21,9 @@ public class Ejercicio05_AnioBisiesto {
 /***
  * EVIDENCIA DEL RUN:
 Ingrese un anio: 
-2028
-El anio 2028 es bisiesto.
+2024
+El anio 2024 es bisiesto.
+Este anio tiene 366 dias
+BUILD SUCCESSFUL (total time: 3 seconds)
 BUILD SUCCESSFUL (total time: 1 minute 8 seconds)
  */

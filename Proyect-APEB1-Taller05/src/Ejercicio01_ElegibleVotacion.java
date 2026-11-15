@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author Jeremy,Leandro
  * @version 1.0
  */
-public class Ejercicio01_LegibleVotacion {
+public class Ejercicio01_ElegibleVotacion {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         System.out.print("Deme edad: ");
