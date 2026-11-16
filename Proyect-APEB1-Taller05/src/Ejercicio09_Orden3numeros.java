@@ -38,5 +38,4 @@ Ingrese el segundo numero:
 Ingrese el tercer numero:
 14
 Es: 1, 14, 23
- * Pegue aquí la evidencia de la ejecución del .java
  */

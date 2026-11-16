@@ -23,5 +23,4 @@ public class Ejercicio10_ValoresParImpar {
 Ingrese un numero entero: 
 7
 El numero es impa
- * Pegue aquí la evidencia de la ejecución del .java
  */

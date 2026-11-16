@@ -25,5 +25,4 @@ Ingrese un anio:
 El anio 2024 es bisiesto.
 Este anio tiene 366 dias
 BUILD SUCCESSFUL (total time: 3 seconds)
-BUILD SUCCESSFUL (total time: 1 minute 8 seconds)
  */

@@ -15,16 +15,16 @@ public class Ejercicio07_RangoNotas {
         nota = tcl.nextDouble();
         if (nota >= 90 && nota <= 100) {
             letra = 'A';
-        } else if (nota >= 80 && nota <= 89) {
+        } else if (nota >= 80 && nota < 90) {
             letra = 'B';
-        } else if (nota >= 70 && nota <= 79) {
+        } else if (nota >= 70 && nota < 80) {
             letra = 'C';
-        } else if (nota >= 0 && nota <= 69) {
+        } else if (nota >= 0 && nota < 70) {
             letra = 'D';
         } else {
             System.out.println("Nota no valida");
             return;
-        }      
+        }
         System.out.println("La letra correspondiente es: " + letra);
     }
 }
